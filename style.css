@@ -1,0 +1,91 @@
+.heading {
+	font-size: 50px;
+	font-family: Helvetica,Arial,sans-serif;
+	text-align: center;
+	line-height: 90px;
+	font-weight: 600;
+}
+
+.board {
+	padding: 50px;
+/*	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;*/
+	width: 600px;
+	height: 260px;
+	background-color:#999;
+	z-index: 1;
+
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+
+}
+
+.cardcontainer {
+	width: 150px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	display: inline-block;
+
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	background-color: #ccc;
+	color: black;
+	z-index: 2;
+}
+
+.on-left {
+	/*position: fixed;
+	left:1;*/
+	float: left;
+}
+
+.on-right {
+	/*position: fixed;
+	right: 1;*/
+	float: right;
+}
+
+.cardcontainer .value {
+	font-size: 75px;
+}
+
+.cardcontainer .suit {
+	font-size: 20px;
+}
+
+.player {
+	font-size: 40px;
+	/*display: ;*/
+	display: inline-block;
+
+}
+
+
+
+.dealer {
+	display: inline-block;
+}
+
+.playerscore {
+	font-size: 30;
+	font-family: Helvetica,Arial,sans-serif;
+	position: relative;
+}
+
+.dealerscore {
+
+}
+
+/* put on bottom-right side */
+.playerscore .score {
+
+
+}
+
+.button {
+
+}
